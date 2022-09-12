@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess my number game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <button class="btn reset">reset</button>
+                <p class="btw"> < number between 1 & 20 > </p>
+            </div>          
+        </div>
+    </header>
+
+    <section class="guess__number">
+        <div class="container">
+            <h1 class="title">guess my number</h1>
+        </div>
+    </section>
+    
+
+    <div class="guess__box">
+        <div class="container row">
+            <div class="number">?</div>
+        </div>
+    </div>
+
+    <section class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <input type="number" class="guess"><br>
+                    <button class="btn check">check</button>
+                </div>
+                <div class="col">
+                    <p class="start__guessing">start guessing...</p>
+                    <p class="score__txt">🔢 score: <span class="score">20</span></p>
+                    <p class="highscore__txt">🥇 highscore: <span class="highscore">0</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="footer__txt">built with ❤️ by winniffy</p>
+        </div>
+    </footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
