@@ -84,7 +84,15 @@ body {
     text-align: center;
 }
 
-.start__guessing,
+.check {
+    margin-top: 1.2em;
+}
+
+.message__effect {
+    
+}
+
+.message,
 .score__txt,
 .highscore__txt {
     font-size: .8rem;
@@ -99,7 +107,7 @@ body {
 @media (min-width: 900px) {
     .row {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -111,10 +119,14 @@ body {
         align-self: flex-start;
     }
 
-    .start__guessing,
+    .message,
     .score__txt,
     .highscore__txt {
         align-self: flex-start;
         font-size: 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
     }
 }
